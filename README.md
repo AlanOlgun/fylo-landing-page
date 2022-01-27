@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [live site URL here](https://alanolgun.github.io/fylo-landing-page/)
+- Live Site URL: [live site URL here](https://fylo-landing-pages.pages.dev/)
 
 
 
