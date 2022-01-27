@@ -1,0 +1,77 @@
+.Desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: #181F2B;  
+    position: relative;
+}
+.Desc-Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    width: 80%;
+    max-width: 1150px;
+}
+.Card-Section{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.Cards{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.Cards h3{
+    color: white;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 20px;
+}
+.Cards p{
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    margin: 20px 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 780px){
+    .Desc{
+        flex-direction: column;
+    }
+    .Desc-Card{ 
+        top: 0;   
+        width: 100%; 
+    }
+    .Card-Section{
+        width: 85%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:nowrap;
+    }
+    .Cards{
+        width: 100%;
+        background-color: #1B2330;
+        margin-bottom: 70px;
+        border-radius: 10px;
+        padding: 10px 0px;
+    }
+    .Cards h3{
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .Cards p{
+        margin: 0;
+        font-weight: 200;
+        font-size: 14px;
+    }
+}

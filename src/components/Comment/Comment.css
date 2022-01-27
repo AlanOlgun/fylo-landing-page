@@ -1,0 +1,202 @@
+.Comment{
+    background-color: #181F2B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Comment-Card{
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+}
+.Comment-Cards{
+    background-color: #202A3C;
+    position: relative; 
+     margin: 100px 20px;
+    box-shadow: 5px 5px 8px 4px rgba(56, 56, 56, 0.0991282);
+    border-radius: 4px;
+    z-index: 100;
+}
+.Comment-Cards .Quotes p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 200px;
+    position: absolute;
+    color: #62E0D9;
+    right: 79.21%;
+    bottom: calc(50% - 120px/2 - 29.5px);
+}
+.Comment-Cards p{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 14px;  
+    padding:0 25px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.Card-Founder{
+    display: flex;
+    padding: 25px 25px;
+    align-items: flex-end;
+}
+.Founder-Info{
+    padding-left: 10px;
+}
+.Founder-Info h5{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    font-style: 10px;
+}
+.Founder-Info h6{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: lighter;
+    font-style: 7px;
+}
+.Founder-Img img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.Access{
+height: 40vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Access-Card {
+    position: relative;
+    top: 50%;
+    max-width: 863px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 90px;
+    background: #1B2330;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
+    border-radius: 9px;
+    z-index: 999;
+}
+.Access-Card h2{
+    font-family: 'Raleway', sans-serif; 
+    color:  #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+.Access-Card p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 36px;
+}
+.Access-Input {
+    display: flex;
+    position: relative;
+}
+.Access-Input input{
+    Width :480px;
+    Height :48px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 20px;
+}
+.inputbox .Result{
+   display: none;
+}
+.inputbox .ResultActive{
+    position: absolute;
+    display: block;
+    color: red;
+    text-align: start;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.Access-Input input[type="text"] {
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    color: #07043B;
+}
+.Access-Input button{
+    font-family: 'Raleway', sans-serif;    
+    color:  #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    width: 200px;
+    height: 48px;
+    border-radius: 50px;
+    border: none;
+    background: linear-gradient(129.57deg, #63E1D9 -26.63%, #34A0CD 100%);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 28px;
+    z-index: 999;
+    cursor: pointer;
+}
+.Access-Input button:hover{
+    background: #8ADAE3;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+}
+@media screen and (max-width: 780px){
+    .Comment-Card{
+        flex-direction: column;
+        padding-top: 100px;  
+        margin:0 0; 
+    }
+    .Comment-Cards{
+        width: 75%;
+        margin:10px 0;
+        padding-bottom: 15px;
+    }
+    .Comment-Cards p{
+        font-size: 10px;
+        padding-top: 24px;
+        line-height: 18px;
+    }
+    .Card-Founder{
+        padding: 15px 20px;
+    }
+    .Founder-Info h6{
+        padding-top: 2px;
+    }
+    .Access{
+        width: 100%;
+    }
+    .Access-Card {
+       width: 90%;
+        top: 50%;
+       padding: 40px 0;
+    }
+    .Access-Card h2{
+        font-size: 18px;
+        padding-top: 0;
+        padding-bottom: 16px;
+    }
+    .Access-Card p{
+        padding: 0px 24px;
+        padding-bottom: 32px;
+    }
+    .Access-Input{
+        flex-direction: column;  
+        Width :85%; 
+    }
+    .Access-Input .inputbox{
+        padding-bottom: 24px;
+        
+    }
+    .Access-Input input{
+        Width :100%;       
+    }
+    .Access-Input button{
+        margin-top: 15px;
+        Width :100%;
+    }
+    .Comment-Cards .Quotes p{
+        top: calc(50% - 130px/2);
+        right: 60.21%;
+    }
+}

@@ -1,0 +1,142 @@
+.Footer{
+    background: #0B1524;    
+    position: relative;
+    padding-top: 180px;
+    padding-left: 80px;
+    padding-right: 60px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.Footer-Logo{
+    padding-bottom: 50px;
+}
+.Footer-Logo img{
+    width: 108px;
+    height: 31px;
+}
+.Footer-Section{  
+    display: flex;
+}
+.Footer-Title{
+    flex: 3;
+    display: flex;
+}
+.Footer-Title p{
+    padding-right: 50px;
+}
+.Footer-Title img{
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.Footer-Info{
+    flex: 2;
+    font-size: 14px;
+}
+.Footer-Info .Info{
+    padding-bottom: 20px;
+}
+.Footer-Info img{
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.Info{
+    display: flex;
+}
+.Footer-Link{
+    flex: 1;
+    display: flex;
+    flex-direction: column;   
+}
+.Footer-Link a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+.Footer-Link a:hover{
+    font-weight: 700;
+}
+.Footer-Social{
+    flex: 1;
+    display: flex;
+}
+.Footer-Social .Social-Icon{
+    padding-left: 20px;  
+}
+.Footer-Social .Social-Icon img{
+    border: 1px solid white;
+    padding: 6px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Footer-Social .Social-Icon img:hover{
+   border: 1px solid #62E0D9;
+   background-color: #62E0D9;
+}
+.Footer .Builder h5{
+    font-family: 'Raleway', sans-serif; 
+    color: #62E0D9;
+    font-weight: 400;
+    text-align:center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.Footer .Builder h5 span a{
+    text-decoration: none;
+    color: #62E0D9;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media screen and (max-width:  780px){
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        padding-top: 240px;
+        padding-left: 0px;
+        padding-right: 0;
+    }
+    .Footer-Section{
+    flex-direction: column;
+    padding-left: 40px;
+     }
+     .Footer-Logo{ 
+    padding-bottom: 20px;
+    padding-left: 40px;
+     }
+     .Footer-Title{
+    padding-bottom: 20px;
+    max-width: 320px;
+}
+    .Footer-Title p{
+    padding-left: 5px;
+    padding-right: 15px;
+    }
+.Footer-Info{
+    padding-bottom: 40px;
+}
+.Footer-Link{
+    padding-bottom: 25px;
+}
+.Footer-Social{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    padding-right: 50px; 
+ }
+.Footer-Social .Social-Icon{
+    padding-left: 0px;   
+}
+.Footer-Social .Social-Icon:nth-child(2){
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.Footer-Social .Social-Icon:nth-child(3){
+    padding-left: 10px;
+    padding-right: 0px;
+}
+}
+
